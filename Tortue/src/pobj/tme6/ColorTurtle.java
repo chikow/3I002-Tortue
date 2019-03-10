@@ -1,8 +1,9 @@
 package pobj.tme6;
 
+import javafx.scene.paint.Color;
 
 public class ColorTurtle extends Turtle implements IColorTurtle{
-	private Color color;
+	protected Color color;
 	
 	
 	
@@ -11,30 +12,12 @@ public class ColorTurtle extends Turtle implements IColorTurtle{
 		this.color= Color.BLACK;
 	}
 
-	@Override
-	public void move(int length) {
-		// TODO Auto-generated method stub
-		super.move(length);
-		
-	}
-
-	@Override
-	public void turn(int angle) {
-		// TODO Auto-generated method stub
-		super.turn(angle);
-	}
 
 	@Override
 	public void up() {
 		// TODO Auto-generated method stub
 		super.up();
 		
-	}
-
-	@Override
-	public void down() {
-		// TODO Auto-generated method stub
-		super.down();
 	}
 
 	@Override
